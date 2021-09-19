@@ -1,0 +1,61 @@
+.container{
+    padding: 50px 100px;
+    background-image: url('https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    max-width: 500px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    box-shadow: 20px 10px 20px 20px #eee;
+    min-height: 450px;
+    
+}
+.input-form{
+    min-width: 200px;
+    background: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    outline: none;
+
+}
+.location-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    
+}
+.temperature-limit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.sized-box{
+    width: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.location{
+    font-size: 40px;
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #eee;
+    color: black;
+}
